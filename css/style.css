@@ -1,0 +1,74 @@
+body {
+  background-color:#f4f4f4;
+}
+
+nav {
+  border-bottom: 2px solid #2e2edc;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.nav-item {
+  margin: 0 8px;
+}
+
+.small-caps-text {
+  font-variant: small-caps;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/Von-karmann.jpg') no-repeat;
+  background-position: center left;
+  text-align:center;
+  color:#ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+#showcase2{
+  min-height:400px;
+  background:url('../img/IIT Guwahati.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  color:#ffffff;
+  border-bottom: 1px solid #dddddd;
+}
+
+#general-info {
+  padding: 50px 0;
+  text-align: justify;
+}
+
+#general-info .col-md-9 {
+  padding-right: 30px;
+}
+
+#home-sidebar {
+  padding: 30px 20px;
+  color: #ffffff;
+  text-align: left;
+}
+
+ul#course li{
+  list-style: none;
+}
+
+ul#course a{
+  text-decoration: none;
+  color: #000;
+}
+
+ul#course a:hover{
+  text-decoration: underline;
+  color: #5DADE2;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
