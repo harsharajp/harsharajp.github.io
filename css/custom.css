@@ -103,11 +103,6 @@ header a:hover{
   font-size:20px;
 }
 
-.carousel-inner > .item > img {
-  width:640px;
-  height:360px;
-}
-
 /* Newsletter */
 #newsletter{
   padding:15px;
@@ -252,4 +247,9 @@ a#course{
 a#course :hover{
   text-decoration: none;
   color: #5DADE2;
+}
+
+.carousel {
+  width:640px;
+  height:360px;
 }
