@@ -105,6 +105,8 @@ header a:hover{
 
 #showcase2{
   min-height:400px;
+  background:url('../img/Purdue_University.jpg') no-repeat;
+  background-position: center;
   text-align:center;
   color:#ffffff;
 }
