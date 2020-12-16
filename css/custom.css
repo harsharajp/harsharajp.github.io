@@ -103,12 +103,9 @@ header a:hover{
   font-size:20px;
 }
 
-#showcase2{
-  min-height:400px;
-  background:url('../img/Purdue_University.jpg') no-repeat;
-  background-position: center left;
-  text-align:center;
-  color:#ffffff;
+.carousel-inner > .item > img {
+  width:640px;
+  height:360px;
 }
 
 /* Newsletter */
