@@ -105,9 +105,6 @@ header a:hover{
 
 #showcase2{
   min-height:400px;
-  background:url('../img/IIT Guwahati.jpg') no-repeat;
-  background-position: center;
-  background-size: cover;
   text-align:center;
   color:#ffffff;
 }
