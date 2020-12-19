@@ -96,7 +96,7 @@ header a:hover{
 #showcase2{
   min-height:400px;
   background:url('../img/team.jpg') no-repeat;
-  background-position: center left;
+  background-position: center;
   text-align:center;
   color:#ffffff;
 }
