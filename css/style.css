@@ -72,11 +72,3 @@ footer {
   color: white;
   padding: 20px 0;
 }
-
-.carousel {
-  width:600px;
-  height:200px;
-}
-.carousel-inner img {
-  margin: auto;
-}
