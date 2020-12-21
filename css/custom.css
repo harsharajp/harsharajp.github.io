@@ -256,7 +256,3 @@ a#course :hover{
   text-decoration: none;
   color: #5DADE2;
 }
-
-.carousel-inner > .item {
-   width: 400px;
-}
