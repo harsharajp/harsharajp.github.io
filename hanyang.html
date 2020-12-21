@@ -59,22 +59,17 @@
 
       <div class="container">
               <section id="general-info">
-              <h1 class="page-title">Computation of Heat and Fluid Flow using Spectral Methods</h1>
+              <h1 class="page-title">Development of Microfluidic Microbial Fuel Cells</h1>
               <p>
-                Numerical resolution of fluid flows and heat transfer is essential for comprehensive characterization and optimization of thermal systems. Over the years, several methods like finite difference (FDM), finite volume (FVM) and finite element (FEM) have been developed, but their accuracy is limited due to their local nature.
+                Microfluidic fuel cells have been widely researched over the past decade to achieve significantly higher power densities. These fuel cells are ideally implemented in arrays where they can provide higher electrical power than comparable macroscale counterparts. Additionally, microscale flows are predominantly laminar in nature, facilitating an easy separation of the anolyte and catholyte without any additional membrane requirements.
               </p>
               <p>
-                In this work, we formulated high accuracy Chebyshev spectral methods and implemented domain decomposition for computational optimization. Spectral methods are widely used for resolving the base flow field in high fidelity stability analysis of fluid flows and for direct numerical simulation (DNS) of turbulent flows.
+                In the MEMS lab at Hanyang, we developed microfluidic microbial fuel cells that can generate electrical power from a variety of organic matter and simultaneously aid in the purification of wastewater. The performance of the bacterial strain in producing electrons is optimal under a specific shear stress and several studies have expressed the dependance of biofilm structure on prevalent flow conditions. During my time at Hanyang, I performed microfluidic simulations in ANSYS Fluent to study the effect of varying flow conditions on the shear stress at the anode and on the performance of the fuel cell.
               </p>
               <p>
-                The spatial discretization was carried out using the Chebyshev collocation method, with a second order semi-implicit time integration scheme and projection method to handle the presure-velocity coupling. Please refer to my <a id="course" href="./pdfs/Final_BTP_Report.pdf" target="_blank"><i>thesis report</i></a> for more specific details on the method, schemes and results. Here are some of the highlights from my thesis:
+                Computational results of the optimal flow conditions helped in achieving an experimental improvement of 12.5 % in maximum power density compared to conventional membrane based designs. More details on the simualtions can be found in a <a id="course" href="./pdfs/microfluidic_hanyang.pdf" target="_blank"><i>report</i></a> I made at the end of my experience. This report was written after my sophomore year and is far from being considered as a good example of my technical writing, but the intent was to convey my passion in CFD with proper methodological description of my work.
               </p>
-              <p>
-                <ul>
-                  <li>Maximum deviation of 0.05% from benchmark results for a lid-driven square cavity problem and successfully validated the numerical algorithm for forced and natural convection.</li>
-                  <li>Implemented domain decomposition on heat conduction and channel flow problems with a maximum computational speed-up of 2.83 for four subdomains.</li>
-                </ul>
-              </p>
+
               </section>
       </div>
 
