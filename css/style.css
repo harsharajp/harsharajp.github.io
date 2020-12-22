@@ -72,3 +72,8 @@ footer {
   color: white;
   padding: 20px 0;
 }
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
